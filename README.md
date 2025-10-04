@@ -44,8 +44,8 @@
 
 ---
 
-### 🐍 Contribution Snake
-![snake gif](https://github.com/Kavin4cK/Kavin4cK/blob/output/github-contribution-grid-snake.svg)
+//### 🐍 Contribution Snake//
+//![snake gif](https://github.com/Kavin4cK/Kavin4cK/blob/output/github-contribution-grid-snake.svg)//
 
 ---
 
