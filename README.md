@@ -1,7 +1,7 @@
 <!-- Profile README for Kavin4cK -->
 
 <h1 align="center">Hi 👋, I'm Kavin</h1>
-<h3 align="center">CSE @ RVCE | DS @ IITM | AI/ML & Blockchain Enthusiast | IoT Maker 🚀</h3>
+<h3 align="center">CSE @ RVCE | DS @ IITM | AI/ML & Blockchain Enthusiast | IoT 🚀</h3>
 
 ---
 
