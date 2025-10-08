@@ -1,7 +1,6 @@
 <!-- Profile README for Kavin4cK -->
-
 <h1 align="center">Hi 👋, I'm Kavin</h1>
-<h3 align="center">CSE @ RVCE | DS @ IITM | AI/ML & Blockchain Enthusiast | IoT 🚀</h3>
+<h3 align="center">CSE @ RVCE | DS @ IITM | Blockchain Buff ⛓️ | IoT Navigator 🧭 | Intrigued by Neural Networks 🚀</h3>
 
 ---
 
@@ -9,6 +8,7 @@
 - 🎓 U.G CSE student at **RVCE**, pursuing **DS at IITM**  
 - 🤖 Interested in **AI/ML, Blockchain, IoT, and Electronics**  
 - 💡 Started with a fun **Monopoly Python-Arduino Banking IoT Project**, now building across domains of Engineering  
+- 🔧 Love working **from the fundamentals** — understanding how things work at the core level
 - ⚡ Fun fact: I love working on projects that connect **hardware + software**  
 
 ---
@@ -19,40 +19,89 @@
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![CMD](https://img.shields.io/badge/CMD-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
 ### 📊 GitHub Stats
-![Kavin's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kavin4cK&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kavin4cK&layout=compact&theme=radical)  
-![GitHub Streak](https://streak-stats.demolab.com?user=Kavin4cK&theme=radical&hide_border=true)
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kavin4cK&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kavin4cK&layout=compact&theme=radical&langs_count=8"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kavin4cK&theme=radical&hide_border=false" alt="GitHub Streak"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kavin4cK&theme=redical&hide_border=true&area=true" alt="Contribution Graph"/>
+</div>
 
 ---
 
 ### 🏆 Trophies
-![trophy](https://github-profile-trophy.vercel.app/?username=Kavin4cK&theme=onedark)
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Kavin4cK&theme=onedark&no-frame=false&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies"/>
+</div>
 
 ---
 
 ### ⌨️ Cool Animations
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=25&duration=4000&color=00F74D&lines=Hi+I'm+Kavin;AI+%26+ML+%7C+Blockchain;IoT+%7C+Electronics;Always+learning+new+tech)](https://git.io/typing-svg)
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=4000&color=00F74D&lines=Hi+I'm+Kavin;Blockchain+Buff+⛓️;IoT+Navigator+🧭;Intrigued+by+Neural+Networks;Always+learning+from+the+fundamentals" alt="Typing SVG"/>
+</div>
 
 ---
 
-//### 🐍 Contribution Snake//
-//![snake gif](https://github.com/Kavin4cK/Kavin4cK/blob/output/github-contribution-grid-snake.svg)//
+### 🐍 Contribution Snake
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kavin4cK/Kavin4cK/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kavin4cK/Kavin4cK/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Kavin4cK/Kavin4cK/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 
 ---
 
-### 🌐 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kavinkrishnancc@gmail.com)
+### 🏅 Badges
+<div align="center">
+  <img src="https://img.shields.io/badge/IEEE_Computer_Society-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE ComSoc"/>
+</div>
 
 ---
 
-⭐️ From [Kavin4cK](https://github.com/Kavin4cK)
+### 🌐 You Can Find Me On
+<div align="center">
+  <a href="www.linkedin.com/in/kavin-krishnan-c-72024k">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:kavinkrishnancc@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://linktr.ee/Kavin_Krishnan_C">
+    <img src="https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree"/>
+  </a>
+  <a href="https://leetcode.com/u/Kavin-Krishnan-C">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
+  <a href="https://stackoverflow.com/users/31434361/kavin4krishnan7c">
+    <img src="https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow"/>
+  </a>
+  <a href="https://www.kaggle.com/kavinkrishnanc">
+    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
+  </a>
+  <a href="https://www.researchgate.net/profile/Kavin-Krishnan-C">
+    <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate"/>
+  </a>
+</div>
+
+---
+
+<div align="center">
+  ⭐️ From <a href="https://github.com/Kavin4cK">Kavin4cK</a>
+</div>
