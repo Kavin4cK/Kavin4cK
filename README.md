@@ -1,15 +1,15 @@
 <!-- Profile README for Kavin4cK -->
-<h1 align="The best error message is the one that never shows up.">Hi 👋, I'm Kavin</h1>
+<h1 align="First, solve the problem. Then, write the code.">Hi 👋, I'm Kavin</h1>
 <h3 align="center">CSE @ RVCE | DS @ IITM | Blockchain Buff ⛓️ | IoT Navigator 🧭 | Intrigued by Neural Networks 🚀</h3>
 
 ---
 
 ### 👨‍💻 About Me
-- 🎓 U.G CSE student at *Hope you're having a productive day!*  
-- 🤖 Interested in *Hope you're having a productive day!*  
-- 💡 Started with a fun *Hope you're having a productive day!*, now building across domains of Engineering  
-- 🔧 Love working *Hope you're having a productive day!* — understanding how things work at the core level
-- ⚡ Fun fact: I love working on projects that connect *Hope you're having a productive day!*  
+- 🎓 U.G CSE student at *Evening coding sessions hit different!*  
+- 🤖 Interested in *Evening coding sessions hit different!*  
+- 💡 Started with a fun *Evening coding sessions hit different!*, now building across domains of Engineering  
+- 🔧 Love working *Evening coding sessions hit different!* — understanding how things work at the core level
+- ⚡ Fun fact: I love working on projects that connect *Evening coding sessions hit different!*  
 
 ---
 
