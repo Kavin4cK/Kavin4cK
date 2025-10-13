@@ -1,15 +1,15 @@
 <!-- Profile README for Kavin4cK -->
-<h1 align="center">Hi 👋, I'm Kavin</h1>
+<h1 align="The best error message is the one that never shows up.">Hi 👋, I'm Kavin</h1>
 <h3 align="center">CSE @ RVCE | DS @ IITM | Blockchain Buff ⛓️ | IoT Navigator 🧭 | Intrigued by Neural Networks 🚀</h3>
 
 ---
 
 ### 👨‍💻 About Me
-- 🎓 U.G CSE student at **RVCE**, pursuing **DS at IITM**  
-- 🤖 Interested in **AI/ML, Blockchain, IoT, and Electronics**  
-- 💡 Started with a fun **Monopoly Python-Arduino Banking IoT Project**, now building across domains of Engineering  
-- 🔧 Love working **from the fundamentals** — understanding how things work at the core level
-- ⚡ Fun fact: I love working on projects that connect **hardware + software**  
+- 🎓 U.G CSE student at *Hope you're having a productive day!*  
+- 🤖 Interested in *Hope you're having a productive day!*  
+- 💡 Started with a fun *Hope you're having a productive day!*, now building across domains of Engineering  
+- 🔧 Love working *Hope you're having a productive day!* — understanding how things work at the core level
+- ⚡ Fun fact: I love working on projects that connect *Hope you're having a productive day!*  
 
 ---
 
