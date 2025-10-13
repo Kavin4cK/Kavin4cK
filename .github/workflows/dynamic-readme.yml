@@ -1,9 +1,9 @@
-name: Dynamic README with Time-Based Greeting
+name: Dynamic README Update
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # Runs every 3 hours
-  workflow_dispatch:  # Allows manual trigger
+    - cron: '0 */3 * * *'  # Every 3 hours
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -15,64 +15,103 @@ jobs:
       contents: write
     
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v3
         
-      - name: Update README with time-based greeting
+      - name: Set IST timezone
         run: |
-          # Get current hour in IST (India Standard Time)
-          CURRENT_HOUR=$(TZ='Asia/Kolkata' date +%H)
+          sudo timedatectl set-timezone Asia/Kolkata || true
+          export TZ='Asia/Kolkata'
+        
+      - name: Update README
+        env:
+          TZ: 'Asia/Kolkata'
+        run: |
+          # FORCE IST timezone
+          export TZ='Asia/Kolkata'
           
-          # Determine greeting based on time
-          if [ $CURRENT_HOUR -ge 5 ] && [ $CURRENT_HOUR -lt 12 ]; then
+          # Get IST time - CONFIRMED
+          HOUR=$(date +%H)
+          echo "Current IST Hour: $HOUR"
+          
+          # Set greeting based on IST time
+          if [ $HOUR -ge 5 ] && [ $HOUR -lt 12 ]; then
             GREETING="Good Morning ☀️"
             EMOJI="🌅"
-            MESSAGE="Rise and shine! Time to build something amazing."
-            THEME_COLOR="FFA500"
-          elif [ $CURRENT_HOUR -ge 12 ] && [ $CURRENT_HOUR -lt 17 ]; then
+            MSG="Rise and shine! Time to build something amazing."
+            COLOR="FFA500"
+          elif [ $HOUR -ge 12 ] && [ $HOUR -lt 17 ]; then
             GREETING="Good Afternoon 🌤️"
             EMOJI="☀️"
-            MESSAGE="Hope you're having a productive day!"
-            THEME_COLOR="FFD700"
-          elif [ $CURRENT_HOUR -ge 17 ] && [ $CURRENT_HOUR -lt 21 ]; then
+            MSG="Hope you're having a productive day!"
+            COLOR="FFD700"
+          elif [ $HOUR -ge 17 ] && [ $HOUR -lt 21 ]; then
             GREETING="Good Evening 🌆"
             EMOJI="🌇"
-            MESSAGE="Evening coding sessions hit different!"
-            THEME_COLOR="FF6B6B"
+            MSG="Evening coding sessions hit different!"
+            COLOR="FF6B6B"
           else
             GREETING="Good Night 🌙"
             EMOJI="✨"
-            MESSAGE="Burning the midnight oil? Remember to rest!"
-            THEME_COLOR="4A5899"
+            MSG="Burning the midnight oil? Remember to rest!"
+            COLOR="4A5899"
           fi
           
-          # Get current date
-          CURRENT_DATE=$(TZ='Asia/Kolkata' date '+%A, %B %d, %Y')
-          CURRENT_TIME=$(TZ='Asia/Kolkata' date '+%I:%M %p IST')
+          # Get FULL date and time in IST
+          FULL_DATE=$(date '+%A, %B %d, %Y')
+          FULL_TIME=$(date '+%I:%M %p IST')
           
-          # Random dev quote
+          echo "Date: $FULL_DATE"
+          echo "Time: $FULL_TIME"
+          echo "Greeting: $GREETING"
+          
+          # Random quote
           QUOTES=(
             "Code is like humor. When you have to explain it, it's bad."
             "First, solve the problem. Then, write the code."
             "The best error message is the one that never shows up."
             "Clean code always looks like it was written by someone who cares."
             "Make it work, make it right, make it fast."
-            "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+            "Talk is cheap. Show me the code."
           )
-          RANDOM_INDEX=$((RANDOM % 6))
-          RANDOM_QUOTE="${QUOTES[$RANDOM_INDEX]}"
+          QUOTE="${QUOTES[$((RANDOM % 6))]}"
           
-          # Update README with sed
-          sed -i "s|^# .*|# $GREETING|" README.md
-          sed -i "s|color=[A-F0-9]*&height|color=$THEME_COLOR\&height|" README.md
-          sed -i "s|text=.*&fontSize|text=$EMOJI\&fontSize|" README.md
-          sed -i "s|### 🕐 Last Updated:.*|### 🕐 Last Updated: $CURRENT_DATE at $CURRENT_TIME|" README.md
-          sed -i "s|\*.*\*|\*$MESSAGE\*|" README.md
-          sed -i "0,/\".*\"/s//\"$RANDOM_QUOTE\"/" README.md
+          # Update using awk with IST values
+          awk -v greeting="$GREETING" -v emoji="$EMOJI" -v msg="$MSG" -v color="$COLOR" \
+              -v fulldate="$FULL_DATE" -v fulltime="$FULL_TIME" -v quote="$QUOTE" '
+          /^# Good (Morning|Afternoon|Evening|Night)/ { print "# " greeting; next }
+          /type=waving&color=[A-F0-9]+&height/ { 
+              gsub(/color=[A-F0-9]+/, "color=" color);
+              gsub(/text=[^&]+/, "text=" emoji);
+              print; next 
+          }
+          /^### 🕐 Last Updated:/ { 
+              print "### 🕐 Last Updated: " fulldate " at " fulltime; 
+              next 
+          }
+          /^\*.*\*$/ && !updated_msg && NR < 20 { 
+              print "*" msg "*"; 
+              updated_msg=1; 
+              next 
+          }
+          /^```$/ && !in_code { in_code=1; print; next }
+          in_code && /^"/ { print "\"" quote "\""; in_code=0; next }
+          in_code { in_code=0 }
+          { print }
+          ' README.md > README.tmp && mv README.tmp README.md
           
-      - name: Commit and push if changed
+      - name: Commit changes
+        env:
+          TZ: 'Asia/Kolkata'
         run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
+          export TZ='Asia/Kolkata'
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update: Dynamic greeting [$(TZ='Asia/Kolkata' date '+%Y-%m-%d %H:%M IST')]" && git push)
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            COMMIT_TIME=$(date '+%Y-%m-%d %I:%M %p IST')
+            git commit -m "🤖 Update: Dynamic content [$COMMIT_TIME]"
+            git push
+          fi
