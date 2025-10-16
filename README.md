@@ -5,7 +5,7 @@
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=FF6B6B&height=120&section=header&text=🌇&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Thursday, October 16, 2025 at 06:20 PM IST
+### 🕐 Last Updated: Thursday, October 16, 2025 at 08:54 PM IST
 
 *Evening coding sessions hit different!*
 
@@ -52,7 +52,7 @@
 <div align="center">
 
 ```
-"Talk is cheap. Show me the code."
+"Code is like humor. When you have to explain it, it's bad."
 ```
 
 ![Jokes Card](https://readme-jokes.vercel.app/api?theme=radical&hideBorder)
