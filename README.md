@@ -1,13 +1,13 @@
 <!-- Profile README for Kavin4cK -->
 <div align="center">
 
-# Good Morning ☀️
+# Good Afternoon 🌤️
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFA500&height=120&section=header&text=🌅&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=header&text=☀️&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Saturday, October 18, 2025 at 09:00 AM IST
+### 🕐 Last Updated: Saturday, October 18, 2025 at 12:00 PM IST
 
-*Rise and shine! Time to build something amazing.*
+*Hope you're having a productive day!*
 
 </div>
 
@@ -52,7 +52,7 @@
 <div align="center">
 
 ```
-"Clean code always looks like it was written by someone who cares."
+"First, solve the problem. Then, write the code."
 ```
 
 ![Jokes Card](https://readme-jokes.vercel.app/api?theme=radical&hideBorder)
