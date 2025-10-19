@@ -1,13 +1,13 @@
 <!-- Profile README for Kavin4cK -->
 <div align="center">
 
-# Good Evening 🌆
+# Good Night 🌙
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FF6B6B&height=120&section=header&text=🌇&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=4A5899&height=120&section=header&text=✨&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Sunday, October 19, 2025 at 08:49 PM IST
+### 🕐 Last Updated: Sunday, October 19, 2025 at 11:59 PM IST
 
-*Evening coding sessions hit different!*
+*Burning the midnight oil? Remember to rest!*
 
 </div>
 
