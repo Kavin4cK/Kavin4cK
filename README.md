@@ -1,13 +1,13 @@
 <!-- Profile README for Kavin4cK -->
 <div align="center">
 
-# Good Morning ☀️
+# Good Afternoon 🌤️
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFA500&height=120&section=header&text=🌅&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=header&text=☀️&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Monday, October 20, 2025 at 09:19 AM IST
+### 🕐 Last Updated: Monday, October 20, 2025 at 12:05 PM IST
 
-*Rise and shine! Time to build something amazing.*
+*Hope you're having a productive day!*
 
 </div>
 
