@@ -1,11 +1,11 @@
 <!-- Profile README for Kavin4cK -->
 <div align="center">
 
-# Good Afternoon 🌤️
+# Good Afternoon ☀️
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=header&text=☀️&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Tuesday, October 21, 2025 at 12:04 PM IST
+### 🕐 Last Updated: Tuesday 21 October, 2025 at 01:06:54 pm IST
 
 *Hope you're having a productive day!*
 
@@ -24,7 +24,9 @@
 
 ---
 
-### 👨‍💻 About Me
+<details>
+<summary><strong>👨‍💻 About Me</strong></summary>
+<br>
 
 - 🎓 U.G CSE student at **RVCE**, pursuing **DS at IITM**  
 - 🤖 Interested in **AI/ML, Blockchain, IoT, and Electronics**  
@@ -33,21 +35,86 @@
 - ⚡ Fun fact: I love working on projects that connect **hardware + software**
 - 🌱 Currently exploring **Neural Networks** and **Decentralized Systems**
 - 💬 Ask me about **Python, C++, Arduino, ESP32, Blockchain**
-- 📫 Reach me at **kavinkrishnancc@gmail.com**
+- 📫 Reach me at **kavinkrishnanc@gmail.com**
+
+</details>
 
 ---
 
-### 🧠 Neural Network Visualization
+<details>
+<summary><strong>🧠 Neural Network Visualization</strong></summary>
+<br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Kavin4cK/Kavin4cK/main/assets/neural-network.svg" alt="Neural Network Animation" width="700"/>
+  <svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .node { fill: #00f74d; transition: all 0.3s ease; }
+      .line { stroke: #58a6ff; stroke-width: 2; opacity: 0.6; }
+      .pulse { animation: pulse 1.5s infinite; }
+      @keyframes pulse {
+        0%, 100% { r: 4; opacity: 1; }
+        50% { r: 7; opacity: 0.5; }
+      }
+      @keyframes flow {
+        0% { stroke-dashoffset: 10; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .flowing { animation: flow 2s linear infinite; stroke-dasharray: 10, 5; }
+    </style>
+    
+    <!-- Layer 1 to Layer 2 -->
+    <line class="line flowing" x1="50" y1="50" x2="150" y2="80"/>
+    <line class="line flowing" x1="50" y1="100" x2="150" y2="80"/>
+    <line class="line flowing" x1="50" y1="150" x2="150" y2="80"/>
+    <line class="line flowing" x1="50" y1="200" x2="150" y2="100"/>
+    <line class="line flowing" x1="50" y1="250" x2="150" y2="100"/>
+    
+    <!-- Layer 2 to Layer 3 -->
+    <line class="line flowing" x1="150" y1="80" x2="250" y2="100"/>
+    <line class="line flowing" x1="150" y1="100" x2="250" y2="150"/>
+    <line class="line flowing" x1="150" y1="120" x2="250" y2="200"/>
+    
+    <!-- Layer 3 to Output -->
+    <line class="line flowing" x1="250" y1="100" x2="350" y2="150"/>
+    <line class="line flowing" x1="250" y1="150" x2="350" y2="150"/>
+    <line class="line flowing" x1="250" y1="200" x2="350" y2="150"/>
+    
+    <!-- Input Layer -->
+    <circle class="node pulse" cx="50" cy="50" r="5"/>
+    <circle class="node pulse" cx="50" cy="100" r="5"/>
+    <circle class="node pulse" cx="50" cy="150" r="5"/>
+    <circle class="node pulse" cx="50" cy="200" r="5"/>
+    <circle class="node pulse" cx="50" cy="250" r="5"/>
+    
+    <!-- Hidden Layer 1 -->
+    <circle class="node pulse" cx="150" cy="80" r="5"/>
+    <circle class="node pulse" cx="150" cy="100" r="5"/>
+    <circle class="node pulse" cx="150" cy="120" r="5"/>
+    
+    <!-- Hidden Layer 2 -->
+    <circle class="node pulse" cx="250" cy="100" r="5"/>
+    <circle class="node pulse" cx="250" cy="150" r="5"/>
+    <circle class="node pulse" cx="250" cy="200" r="5"/>
+    
+    <!-- Output Layer -->
+    <circle class="node pulse" cx="350" cy="150" r="6" fill="#ff6b6b"/>
+    
+    <text x="50" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Input</text>
+    <text x="150" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Hidden</text>
+    <text x="250" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Hidden</text>
+    <text x="350" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Output</text>
+  </svg>
   <br>
   <em>✨ Intrigued by how machines learn • Building the future one neuron at a time 🤖</em>
 </div>
 
+</details>
+
 ---
 
-### 💭 Quote of the Day
+<details>
+<summary><strong>💭 Quote & Meme Zone</strong></summary>
+<br>
 
 <div align="center">
 
@@ -55,9 +122,11 @@
 "Make it work, make it right, make it fast."
 ```
 
-![Jokes Card](https://readme-jokes.vercel.app/api?theme=radical&hideBorder)
+💡 *Dev life: where coffee is a food group and Stack Overflow is a religion!*
 
 </div>
+
+</details>
 
 ---
 
@@ -91,6 +160,8 @@
 
 ---
 
+---
+
 ### 📊 GitHub Stats
 
 <div align="center">
@@ -108,10 +179,12 @@
 
 ---
 
-### 📈 More Stats
+<details>
+<summary><strong>🏆 More Achievements</strong></summary>
+<br>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kavin4cK&theme=radical" alt="Profile Summary"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kavin4cK&theme=radical" alt="Profile Summary" width="100%"/>
 </div>
 
 <div align="center">
@@ -124,35 +197,17 @@
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kavin4cK&theme=radical"/>
 </div>
 
----
-
-### 🏆 GitHub Trophies
-
 <div align="center">
   <img width="90%" src="https://github-profile-trophy.vercel.app/?username=Kavin4cK&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies"/>
 </div>
 
----
-
-### ⌨️ Cool Animations
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=4000&color=00F74D&lines=Hi+I'm+Kavin;Blockchain+Buff+⛓️;IoT+Navigator+🧭;Intrigued+by+Neural+Networks;Always+learning+from+the+fundamentals" alt="Typing SVG"/>
-</div>
+</details>
 
 ---
 
-### 🐍 Contribution Snake
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kavin4cK/Kavin4cK/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kavin4cK/Kavin4cK/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Kavin4cK/Kavin4cK/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
----
-
-### 🎯 Current Focus
+<details>
+<summary><strong>🎯 Current Focus</strong></summary>
+<br>
 
 <div align="center">
 
@@ -166,6 +221,10 @@ const kavin = {
 ```
 
 </div>
+
+</details>
+
+---
 
 ---
 
@@ -183,53 +242,35 @@ const kavin = {
 ![Code](https://img.shields.io/badge/Code-24/7-00f74d?style=for-the-badge)
 ![Passion](https://img.shields.io/badge/Passion-Level_MAX-ff6b6b?style=for-the-badge)
 
+<img src="https://github-profile-trophy.vercel.app/?username=Kavin4cK&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" width="90%"/>
+
 </div>
 
 ---
 
-### 🎮 Fun Zone
-
 <details>
-<summary>🎲 Click for a random dev meme!</summary>
+<summary><strong>👀 Profile Analytics</strong></summary>
 <br>
-<div align="center">
-  <img src="https://random-memer.herokuapp.com/" width="512px"/>
-</div>
-</details>
 
-<details>
-<summary>📊 More Detailed Stats</summary>
-<br>
 <div align="center">
-  
-**My GitHub Data**
 
-![Lines of Code](https://img.shields.io/badge/Total_Lines_of_Code-100K+-00f74d?style=flat-square)
-![Repositories](https://img.shields.io/badge/Repositories-10+-58a6ff?style=flat-square)
-![Stars Earned](https://img.shields.io/badge/Stars_Earned-5+-ff6b6b?style=flat-square)
+![Total Profile Views](https://komarev.com/ghpvc/?username=Kavin4cK&color=00f74d&style=flat-square&label=Total%20Profile%20Views)
 
 </div>
+
 </details>
 
 ---
 
-### 👀 Profile Views & Visitors
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Kavin4cK&color=00f74d&style=for-the-badge&label=PROFILE+VIEWS)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Kavin4cK.Kavin4cK&left_color=00f74d&right_color=000000&left_text=Total%20Visitors)
-
-</div>
-
 ---
 
-### 🌐 You Can Find Me On
+### 🌐 Connect With Me
+
 <div align="center">
   <a href="https://www.linkedin.com/in/kavin-krishnan-c-72024k">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:kavinkrishnancc@gmail.com">
+  <a href="mailto:kavinkrishnanc@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   <a href="https://linktr.ee/Kavin_Krishnan_C">
@@ -251,7 +292,9 @@ const kavin = {
 
 ---
 
-### 💬 Let's Connect!
+<details>
+<summary><strong>💬 Let's Connect!</strong></summary>
+<br>
 
 <div align="center">
 
@@ -262,6 +305,8 @@ const kavin = {
 [![Ask Me Anything](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg?style=for-the-badge)](https://github.com/Kavin4cK/Kavin4cK/issues/new)
 
 </div>
+
+</details>
 
 ---
 
