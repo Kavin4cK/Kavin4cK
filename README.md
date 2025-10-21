@@ -17,7 +17,7 @@
 <h3 align="center">CSE @ RVCE | DS @ IITM | Blockchain Buff ⛓️ | IoT Navigator 🧭 | Intrigued by Neural Networks 🚀</h3>
 
 <div align="center">
-  
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F74D&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+%26+ML+Enthusiast;Blockchain+Buff+⛓️;IoT+Navigator+🧭;Always+Learning+From+Fundamentals)](https://git.io/typing-svg)
 
 </div>
@@ -48,7 +48,7 @@
 <div align="center">
 
 ```
-"Make it work, make it right, make it fast."
+"Clean code always looks like it was written by someone who cares."
 ```
 
 💡 *Dev life: where coffee is a food group and Stack Overflow is a religion!*
