@@ -1,13 +1,13 @@
 <!-- Profile README for Kavin4cK -->
 <div align="center">
 
-# Good Evening 🌆
+# Good Night 🌙
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FF6B6B&height=120&section=header&text=🌇&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=header&text=🌙&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Tuesday, October 21, 2025 at 08:52 PM IST
+### 🕐 Last Updated: Tuesday 21 October, 2025 at 09:06:06 pm IST
 
-*Evening coding sessions hit different!*
+*Hope you're having a productive day!*
 
 </div>
 
@@ -17,7 +17,7 @@
 <h3 align="center">CSE @ RVCE | DS @ IITM | Blockchain Buff ⛓️ | IoT Navigator 🧭 | Intrigued by Neural Networks 🚀</h3>
 
 <div align="center">
-
+  
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F74D&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+%26+ML+Enthusiast;Blockchain+Buff+⛓️;IoT+Navigator+🧭;Always+Learning+From+Fundamentals)](https://git.io/typing-svg)
 
 </div>
@@ -48,7 +48,7 @@
 <div align="center">
 
 ```
-"Talk is cheap. Show me the code."
+"Make it work, make it right, make it fast."
 ```
 
 💡 *Dev life: where coffee is a food group and Stack Overflow is a religion!*

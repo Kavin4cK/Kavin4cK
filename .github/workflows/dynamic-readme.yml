@@ -35,17 +35,22 @@ jobs:
           echo "Current IST Hour: $HOUR"
           
           # Set greeting based on IST time
-          if [ $HOUR -ge 5 ] && [ $HOUR -lt 12 ]; then
-            GREETING="Good Morning ☀️"
+          if [ $HOUR -ge 1 ] && [ $HOUR -lt 5 ]; then
+            GREETING="Good Midnight 🌙"
+            EMOJI="🌙"
+            MSG="Burning the midnight oil? Remember to rest!"
+            COLOR="4A5899"
+          elif [ $HOUR -ge 5 ] && [ $HOUR -lt 12 ]; then
+            GREETING="Good Morning 🌅"
             EMOJI="🌅"
             MSG="Rise and shine! Time to build something amazing."
             COLOR="FFA500"
-          elif [ $HOUR -ge 12 ] && [ $HOUR -lt 17 ]; then
-            GREETING="Good Afternoon 🌤️"
+          elif [ $HOUR -ge 12 ] && [ $HOUR -lt 16 ]; then
+            GREETING="Good Afternoon ☀️"
             EMOJI="☀️"
             MSG="Hope you're having a productive day!"
             COLOR="FFD700"
-          elif [ $HOUR -ge 17 ] && [ $HOUR -lt 21 ]; then
+          elif [ $HOUR -ge 16 ] && [ $HOUR -lt 20 ]; then
             GREETING="Good Evening 🌆"
             EMOJI="🌇"
             MSG="Evening coding sessions hit different!"
@@ -53,8 +58,8 @@ jobs:
           else
             GREETING="Good Night 🌙"
             EMOJI="✨"
-            MSG="Burning the midnight oil? Remember to rest!"
-            COLOR="4A5899"
+            MSG="Time to rest and recharge for tomorrow!"
+            COLOR="1a1a2e"
           fi
           
           # Get FULL date and time in IST
@@ -79,7 +84,7 @@ jobs:
           # Update using awk with IST values
           awk -v greeting="$GREETING" -v emoji="$EMOJI" -v msg="$MSG" -v color="$COLOR" \
               -v fulldate="$FULL_DATE" -v fulltime="$FULL_TIME" -v quote="$QUOTE" '
-          /^# Good (Morning|Afternoon|Evening|Night)/ { print "# " greeting; next }
+          /^# Good (Midnight|Morning|Afternoon|Evening|Night)/ { print "# " greeting; next }
           /type=waving&color=[A-F0-9]+&height/ { 
               gsub(/color=[A-F0-9]+/, "color=" color);
               gsub(/text=[^&]+/, "text=" emoji);
