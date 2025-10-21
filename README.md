@@ -3,11 +3,11 @@
 
 # Good Night 🌙
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=header&text=🌙&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=120&section=header&text=✨&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Tuesday 21 October, 2025 at 09:06:06 pm IST
+### 🕐 Last Updated: Tuesday, October 21, 2025 at 09:08 PM IST
 
-*Hope you're having a productive day!*
+*Time to rest and recharge for tomorrow!*
 
 </div>
 
@@ -48,7 +48,7 @@
 <div align="center">
 
 ```
-"Make it work, make it right, make it fast."
+"Clean code always looks like it was written by someone who cares."
 ```
 
 💡 *Dev life: where coffee is a food group and Stack Overflow is a religion!*
