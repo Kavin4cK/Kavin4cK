@@ -1,11 +1,11 @@
 <!-- Profile README for Kavin4cK -->
 <div align="center">
 
-# Good Afternoon ☀️
+# Good Evening 🌆
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=header&text=☀️&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=header&text=🌆&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Tuesday 21 October, 2025 at 01:17:55 pm IST
+### 🕐 Last Updated: Tuesday 21 October, 2025 at 04:03:58 pm IST
 
 *Hope you're having a productive day!*
 
@@ -67,11 +67,14 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 #### Hardware & IoT
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
+![STM32 Nucleo](https://img.shields.io/badge/STM32_Nucleo-09009F?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![8051 Microcontroller](https://img.shields.io/badge/8051_Microcontroller-1a1a1a?style=for-the-badge&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 
 #### Tools & Systems
@@ -79,11 +82,21 @@
 ![CMD](https://img.shields.io/badge/CMD-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![PGAdmin](https://img.shields.io/badge/PGAdmin-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 #### AI/ML & Blockchain
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 ![Blockchain](https://img.shields.io/badge/Blockchain-121D33?style=for-the-badge&logo=blockchain.com&logoColor=white)
+
+#### Frameworks & Libraries
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
 </div>
 
@@ -162,16 +175,22 @@ const kavin = {
 <div align="center">
 
 ![IEEE ComSoc](https://img.shields.io/badge/IEEE_Computer_Society-00629B?style=for-the-badge&logo=ieee&logoColor=white)
+![IUCEE Student Member](https://img.shields.io/badge/IUCEE-Student_Member-FF6B35?style=for-the-badge&logo=university&logoColor=white)
 ![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-green?style=for-the-badge&logo=github&logoColor=white)
-![Hackathons](https://img.shields.io/badge/Hackathon-Participant-orange?style=for-the-badge&logo=hackaday&logoColor=white)
+![Hackathons](https://img.shields.io/badge/Hackathons-4_Participated_|_1_Won-orange?style=for-the-badge&logo=hackaday&logoColor=white)
+![Workshops](https://img.shields.io/badge/Workshops-12_Attended-blue?style=for-the-badge&logo=graduation-cap&logoColor=white)
+![Conferences](https://img.shields.io/badge/Conferences-2_Organized-9C27B0?style=for-the-badge&logo=presentation&logoColor=white)
+![Competitions](https://img.shields.io/badge/Competitions-5_Won-FFD700?style=for-the-badge&logo=trophy&logoColor=black)
 
 ### ☕ Powered By
 
 ![Coffee](https://img.shields.io/badge/Coffee-☕_×_∞-brown?style=for-the-badge)
 ![Code](https://img.shields.io/badge/Code-24/7-00f74d?style=for-the-badge)
 ![Passion](https://img.shields.io/badge/Passion-Level_MAX-ff6b6b?style=for-the-badge)
+![Dedication](https://img.shields.io/badge/Dedication-∞-58a6ff?style=for-the-badge)
+![Innovation](https://img.shields.io/badge/Innovation-Always-79c0ff?style=for-the-badge)
 
-<img src="https://github-profile-trophy.vercel.app/?username=Kavin4cK&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" width="90%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Kavin4cK&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7&exclude=followers,reviews,discussions" alt="GitHub Trophies" width="90%"/>
 
 </div>
 
