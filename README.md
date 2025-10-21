@@ -5,7 +5,7 @@
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=header&text=☀️&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Tuesday 21 October, 2025 at 01:12:02 pm IST
+### 🕐 Last Updated: Tuesday 21 October, 2025 at 01:13:55 pm IST
 
 *Hope you're having a productive day!*
 
@@ -46,70 +46,66 @@
 <br>
 
 <div align="center">
-
-```svg
-<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .node { fill: #00f74d; transition: all 0.3s ease; }
-    .line { stroke: #58a6ff; stroke-width: 2; opacity: 0.6; }
-    .pulse { animation: pulse 1.5s infinite; }
-    @keyframes pulse {
-      0%, 100% { r: 4; opacity: 1; }
-      50% { r: 7; opacity: 0.5; }
-    }
-    @keyframes flow {
-      0% { stroke-dashoffset: 10; }
-      100% { stroke-dashoffset: 0; }
-    }
-    .flowing { animation: flow 2s linear infinite; stroke-dasharray: 10, 5; }
-  </style>
-  
-  <!-- Layer 1 to Layer 2 -->
-  <line class="line flowing" x1="50" y1="50" x2="150" y2="80"/>
-  <line class="line flowing" x1="50" y1="100" x2="150" y2="80"/>
-  <line class="line flowing" x1="50" y1="150" x2="150" y2="80"/>
-  <line class="line flowing" x1="50" y1="200" x2="150" y2="100"/>
-  <line class="line flowing" x1="50" y1="250" x2="150" y2="100"/>
-  
-  <!-- Layer 2 to Layer 3 -->
-  <line class="line flowing" x1="150" y1="80" x2="250" y2="100"/>
-  <line class="line flowing" x1="150" y1="100" x2="250" y2="150"/>
-  <line class="line flowing" x1="150" y1="120" x2="250" y2="200"/>
-  
-  <!-- Layer 3 to Output -->
-  <line class="line flowing" x1="250" y1="100" x2="350" y2="150"/>
-  <line class="line flowing" x1="250" y1="150" x2="350" y2="150"/>
-  <line class="line flowing" x1="250" y1="200" x2="350" y2="150"/>
-  
-  <!-- Input Layer -->
-  <circle class="node pulse" cx="50" cy="50" r="5"/>
-  <circle class="node pulse" cx="50" cy="100" r="5"/>
-  <circle class="node pulse" cx="50" cy="150" r="5"/>
-  <circle class="node pulse" cx="50" cy="200" r="5"/>
-  <circle class="node pulse" cx="50" cy="250" r="5"/>
-  
-  <!-- Hidden Layer 1 -->
-  <circle class="node pulse" cx="150" cy="80" r="5"/>
-  <circle class="node pulse" cx="150" cy="100" r="5"/>
-  <circle class="node pulse" cx="150" cy="120" r="5"/>
-  
-  <!-- Hidden Layer 2 -->
-  <circle class="node pulse" cx="250" cy="100" r="5"/>
-  <circle class="node pulse" cx="250" cy="150" r="5"/>
-  <circle class="node pulse" cx="250" cy="200" r="5"/>
-  
-  <!-- Output Layer -->
-  <circle class="node pulse" cx="350" cy="150" r="6" fill="#ff6b6b"/>
-  
-  <text x="50" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Input</text>
-  <text x="150" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Hidden</text>
-  <text x="250" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Hidden</text>
-  <text x="350" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Output</text>
-</svg>
-```
-
-✨ Intrigued by how machines learn • Building the future one neuron at a time 🤖
-
+  <svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .node { fill: #00f74d; transition: all 0.3s ease; }
+      .line { stroke: #58a6ff; stroke-width: 2; opacity: 0.6; }
+      .pulse { animation: pulse 1.5s infinite; }
+      @keyframes pulse {
+        0%, 100% { r: 4; opacity: 1; }
+        50% { r: 7; opacity: 0.5; }
+      }
+      @keyframes flow {
+        0% { stroke-dashoffset: 10; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .flowing { animation: flow 2s linear infinite; stroke-dasharray: 10, 5; }
+    </style>
+    
+    <!-- Layer 1 to Layer 2 -->
+    <line class="line flowing" x1="50" y1="50" x2="150" y2="80"/>
+    <line class="line flowing" x1="50" y1="100" x2="150" y2="80"/>
+    <line class="line flowing" x1="50" y1="150" x2="150" y2="80"/>
+    <line class="line flowing" x1="50" y1="200" x2="150" y2="100"/>
+    <line class="line flowing" x1="50" y1="250" x2="150" y2="100"/>
+    
+    <!-- Layer 2 to Layer 3 -->
+    <line class="line flowing" x1="150" y1="80" x2="250" y2="100"/>
+    <line class="line flowing" x1="150" y1="100" x2="250" y2="150"/>
+    <line class="line flowing" x1="150" y1="120" x2="250" y2="200"/>
+    
+    <!-- Layer 3 to Output -->
+    <line class="line flowing" x1="250" y1="100" x2="350" y2="150"/>
+    <line class="line flowing" x1="250" y1="150" x2="350" y2="150"/>
+    <line class="line flowing" x1="250" y1="200" x2="350" y2="150"/>
+    
+    <!-- Input Layer -->
+    <circle class="node pulse" cx="50" cy="50" r="5"/>
+    <circle class="node pulse" cx="50" cy="100" r="5"/>
+    <circle class="node pulse" cx="50" cy="150" r="5"/>
+    <circle class="node pulse" cx="50" cy="200" r="5"/>
+    <circle class="node pulse" cx="50" cy="250" r="5"/>
+    
+    <!-- Hidden Layer 1 -->
+    <circle class="node pulse" cx="150" cy="80" r="5"/>
+    <circle class="node pulse" cx="150" cy="100" r="5"/>
+    <circle class="node pulse" cx="150" cy="120" r="5"/>
+    
+    <!-- Hidden Layer 2 -->
+    <circle class="node pulse" cx="250" cy="100" r="5"/>
+    <circle class="node pulse" cx="250" cy="150" r="5"/>
+    <circle class="node pulse" cx="250" cy="200" r="5"/>
+    
+    <!-- Output Layer -->
+    <circle class="node pulse" cx="350" cy="150" r="6" fill="#ff6b6b"/>
+    
+    <text x="50" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Input</text>
+    <text x="150" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Hidden</text>
+    <text x="250" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Hidden</text>
+    <text x="350" y="280" font-size="12" fill="#8b949e" text-anchor="middle">Output</text>
+  </svg>
+  <br>
+  <em>✨ Intrigued by how machines learn • Building the future one neuron at a time 🤖</em>
 </div>
 
 </details>
