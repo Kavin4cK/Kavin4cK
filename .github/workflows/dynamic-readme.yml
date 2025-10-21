@@ -48,7 +48,7 @@ jobs:
           elif [ $HOUR -ge 12 ] && [ $HOUR -lt 16 ]; then
             GREETING="Good Afternoon ☀️"
             EMOJI="☀️"
-            MSG="Hope you're having a productive day!"
+            MSG="Let's keep the momentum going!"
             COLOR="FFD700"
           elif [ $HOUR -ge 16 ] && [ $HOUR -lt 20 ]; then
             GREETING="Good Evening 🌆"
