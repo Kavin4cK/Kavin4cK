@@ -263,5 +263,5 @@ const kavin = {
   
   ### Show some ❤️ by starring some repositories!
   
-  ⭐️ From <a href="https://github.com/Kavin4cK">Kavin4cK</a> with 💚
+  ⭐️ From <a href="https://github.com/Kavin4cK">Kavin Krishnan C [Kavin4cK] </a> with 💚
 </div>
