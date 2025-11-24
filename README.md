@@ -5,7 +5,7 @@
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=120&section=header&text=✨&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Monday, November 24, 2025 at 06:18 PM IST
+### 🕐 Last Updated: Monday, November 24, 2025 at 07:04 PM IST
 
 *Evening coding sessions hit different!*
 
@@ -48,7 +48,7 @@
 <div align="center">
 
 ```
-"Clean code always looks like it was written by someone who cares."
+"First, solve the problem. Then, write the code."
 ```
 
 💡 *Dev life: where coffee is a food group and Stack Overflow is a religion!*
