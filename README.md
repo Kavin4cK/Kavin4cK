@@ -5,7 +5,7 @@
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=120&section=header&text=✨&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Monday, December 29, 2025 at 03:03 PM IST
+### 🕐 Last Updated: Monday, December 29, 2025 at 03:56 PM IST
 
 *Let's keep the momentum going!*
 
@@ -48,7 +48,7 @@
 <div align="center">
 
 ```
-"Talk is cheap. Show me the code."
+"First, solve the problem. Then, write the code."
 ```
 
 💡 *Dev life: where coffee is a food group and Stack Overflow is a religion!*
