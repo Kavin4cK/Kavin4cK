@@ -5,7 +5,7 @@
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=120&section=header&text=✨&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Monday, March 30, 2026 at 01:03 AM IST
+### 🕐 Last Updated: Monday, March 30, 2026 at 02:05 AM IST
 
 *Burning the midnight oil? Remember to rest!*
 
@@ -48,7 +48,7 @@
 <div align="center">
 
 ```
-"Make it work, make it right, make it fast."
+"The best error message is the one that never shows up."
 ```
 
 💡 *Dev life: where coffee is a food group and Stack Overflow is a religion!*
