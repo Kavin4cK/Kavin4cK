@@ -5,7 +5,7 @@
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=120&section=header&text=✨&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Friday, April 03, 2026 at 05:06 AM IST
+### 🕐 Last Updated: Friday, April 03, 2026 at 08:06 AM IST
 
 *Rise and shine! Time to build something amazing.*
 
@@ -48,7 +48,7 @@
 <div align="center">
 
 ```
-"Make it work, make it right, make it fast."
+"Code is like humor. When you have to explain it, it's bad."
 ```
 
 💡 *Dev life: where coffee is a food group and Stack Overflow is a religion!*
