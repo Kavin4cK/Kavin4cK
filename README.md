@@ -1,13 +1,13 @@
 <!-- Profile README for Kavin4cK -->
 <div align="center">
 
-# Good Night 🌙
+# Good Midnight 🌙
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=120&section=header&text=✨&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Sunday, May 24, 2026 at 12:43 AM IST
+### 🕐 Last Updated: Sunday, May 24, 2026 at 02:25 AM IST
 
-*Time to rest and recharge for tomorrow!*
+*Burning the midnight oil? Remember to rest!*
 
 </div>
 
@@ -48,7 +48,7 @@
 <div align="center">
 
 ```
-"Talk is cheap. Show me the code."
+"Clean code always looks like it was written by someone who cares."
 ```
 
 💡 *Dev life: where coffee is a food group and Stack Overflow is a religion!*
