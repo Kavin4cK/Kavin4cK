@@ -1,13 +1,13 @@
 <!-- Profile README for Kavin4cK -->
 <div align="center">
 
-# Good Morning 🌅
+# Good Night 🌙
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=120&section=header&text=✨&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Thursday, August 27, 2026 at 09:51 AM IST
+### 🕐 Last Updated: Thursday, August 27, 2026 at 09:41 PM IST
 
-*Rise and shine! Time to build something amazing.*
+*Time to rest and recharge for tomorrow!*
 
 </div>
 
@@ -48,7 +48,7 @@
 <div align="center">
 
 ```
-"First, solve the problem. Then, write the code."
+"Clean code always looks like it was written by someone who cares."
 ```
 
 💡 *Dev life: where coffee is a food group and Stack Overflow is a religion!*
