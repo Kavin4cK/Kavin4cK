@@ -29,7 +29,6 @@
 
 I'm a **Computer Science and Data Science dual-degree student** specializing in **AI, IoT, and software development**. Beyond the technical side, I'm a dedicated **community leader and problem solver** who actively volunteers with **NGOs and collegiate societies**.
 
-- 🎓 B.E. in **Computer Science** at **RVCE**, alongside a **B.S. in Data Science** at **IIT Madras** (hybrid)
 - 🤖 Building across **AI/ML, Blockchain, IoT, and Electronics**
 - 🔧 I like working **from the fundamentals**: understanding how things work at the core level
 - ⚡ Happiest on projects that connect **hardware + software**
@@ -53,17 +52,6 @@ I'm a **Computer Science and Data Science dual-degree student** specializing in 
 TODO: add resume projects here in the same format:
 - **Project Name** (link): one-line description. *Tech · Stack*
 -->
-
----
-
-## 🎓 Education
-
-| Degree | Institution |
-|---|---|
-| B.E. Computer Science & Engineering | **RV College of Engineering (RVCE)**, Bengaluru |
-| B.S. Data Science and Applications (Hybrid) | **IIT Madras** ([Student Profile](https://ds.study.iitm.ac.in/student/24F3002609)) |
-
----
 
 ## 🤝 Community & Leadership
 
