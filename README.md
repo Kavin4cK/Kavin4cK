@@ -1,13 +1,13 @@
 <!--START:HEADER-->
 <div align="center">
 
-# Good Morning 🌅
+# Good Evening 🌆
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFA500&height=120&section=header&text=🌅&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=FF6B6B&height=120&section=header&text=🌇&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Monday, September 21, 2026 at 09:00 AM IST
+### 🕐 Last Updated: Monday, September 21, 2026 at 05:12 PM IST
 
-*Rise and shine! Time to build something amazing.*
+*Evening coding sessions hit different!*
 
 </div>
 <!--END:HEADER-->
@@ -178,7 +178,7 @@ TODO: add specific roles, NGO names, and society positions from the resume.
 ## ✍️ Latest from Dev.to
 
 <!--START:POSTS-->
-_Posts will appear here after the next automated update._
+_No posts yet, stay tuned!_
 <!--END:POSTS-->
 
 [Read more on Dev.to →](https://dev.to/kavin_krishnanc_8997e443)
@@ -252,7 +252,7 @@ _Posts will appear here after the next automated update._
 <!--START:QUOTE-->
 <div align="center">
 
-> *"Code is like humor. When you have to explain it, it's bad."*
+> *"The best error message is the one that never shows up."*
 
 </div>
 <!--END:QUOTE-->
