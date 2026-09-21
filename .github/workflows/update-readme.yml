@@ -1,0 +1,47 @@
+name: Dynamic README Update
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'   # every 3 hours (UTC)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_readme.py'
+      - '.github/workflows/update-readme.yml'
+
+concurrency:
+  group: readme-update
+  cancel-in-progress: true
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Update README
+        run: python scripts/update_readme.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            COMMIT_TIME=$(TZ='Asia/Kolkata' date '+%Y-%m-%d %I:%M %p IST')
+            git commit -m "🤖 Update: Dynamic content [$COMMIT_TIME]"
+            git pull --rebase
+            git push
+          fi
