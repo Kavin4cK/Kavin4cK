@@ -2,17 +2,15 @@ name: Dynamic README Update
 
 on:
   schedule:
-    - cron: '0 */3 * * *'   # every 3 hours (UTC)
+    - cron: '0 * * * *'   # every hour (UTC)
   workflow_dispatch:
   push:
-    branches: [main]
-    paths:
-      - 'scripts/update_readme.py'
-      - '.github/workflows/update-readme.yml'
+    branches:
+      - main
 
 concurrency:
   group: readme-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update-readme:
@@ -24,15 +22,94 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
       - name: Update README
-        run: python scripts/update_readme.py
+        env:
+          TZ: 'Asia/Kolkata'
+        run: |
+          set -e
+
+          # ---------- IST greeting ----------
+          HOUR=$((10#$(date +%H)))
+          echo "Current IST hour: $HOUR"
+
+          if [ $HOUR -ge 1 ] && [ $HOUR -lt 5 ]; then
+            GREETING="Good Midnight 🌙"; EMOJI="🌙"; COLOR="4A5899"
+            MSG="Burning the midnight oil? Remember to rest!"
+          elif [ $HOUR -ge 5 ] && [ $HOUR -lt 12 ]; then
+            GREETING="Good Morning 🌅"; EMOJI="🌅"; COLOR="FFA500"
+            MSG="Rise and shine! Time to build something amazing."
+          elif [ $HOUR -ge 12 ] && [ $HOUR -lt 16 ]; then
+            GREETING="Good Afternoon ☀️"; EMOJI="☀️"; COLOR="FFD700"
+            MSG="Let's keep the momentum going!"
+          elif [ $HOUR -ge 16 ] && [ $HOUR -lt 20 ]; then
+            GREETING="Good Evening 🌆"; EMOJI="🌇"; COLOR="FF6B6B"
+            MSG="Evening coding sessions hit different!"
+          else
+            GREETING="Good Night 🌙"; EMOJI="✨"; COLOR="1A1A2E"
+            MSG="Time to rest and recharge for tomorrow!"
+          fi
+
+          FULL_DATE=$(date '+%A, %B %d, %Y')
+          FULL_TIME=$(date '+%I:%M %p IST')
+
+          # ---------- random quote ----------
+          QUOTES=(
+            "Code is like humor. When you have to explain it, it's bad."
+            "First, solve the problem. Then, write the code."
+            "The best error message is the one that never shows up."
+            "Clean code always looks like it was written by someone who cares."
+            "Make it work, make it right, make it fast."
+            "Talk is cheap. Show me the code."
+          )
+          QUOTE="${QUOTES[$((RANDOM % ${#QUOTES[@]}))]}"
+
+          # ---------- build the new blocks ----------
+          cat > /tmp/header.md <<EOF
+          <div align="center">
+
+          # $GREETING
+
+          ![Wave](https://capsule-render.vercel.app/api?type=waving&color=$COLOR&height=120&section=header&text=$EMOJI&fontSize=90&animation=twinkling)
+
+          ### 🕐 Last Updated: $FULL_DATE at $FULL_TIME
+
+          *$MSG*
+
+          </div>
+          EOF
+
+          cat > /tmp/quote.md <<EOF
+          <div align="center">
+
+          > *"$QUOTE"*
+
+          </div>
+          EOF
+
+          # ---------- swap the content between the markers ----------
+          replace_block() {
+            awk -v name="$1" -v file="$2" '
+              { line=$0; sub(/\r$/, "", line) }
+              line == "<!--START:" name "-->" {
+                print line
+                while ((getline l < file) > 0) print l
+                close(file)
+                skip=1
+                next
+              }
+              line == "<!--END:" name "-->" { skip=0 }
+              !skip { print }
+            ' README.md > README.tmp && mv README.tmp README.md
+          }
+
+          replace_block HEADER /tmp/header.md
+          replace_block QUOTE /tmp/quote.md
+
+          echo "Updated: $GREETING | $FULL_DATE at $FULL_TIME"
 
       - name: Commit changes
+        env:
+          TZ: 'Asia/Kolkata'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -40,7 +117,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            COMMIT_TIME=$(TZ='Asia/Kolkata' date '+%Y-%m-%d %I:%M %p IST')
+            COMMIT_TIME=$(date '+%Y-%m-%d %I:%M %p IST')
             git commit -m "🤖 Update: Dynamic content [$COMMIT_TIME]"
             git pull --rebase
             git push
