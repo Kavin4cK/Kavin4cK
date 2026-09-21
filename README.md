@@ -15,7 +15,7 @@
 ---
 
 <h1 align="center">Hi 👋, I'm Kavin</h1>
-<h3 align="center">CS + Data Science Dual-Degree Student | AI · IoT · Software Development | Community Leader</h3>
+<h3 align="center">CS Student | AI · IoT · Software Development | Community Leader</h3>
 
 <div align="center">
 
@@ -27,7 +27,7 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Computer Science and Data Science dual-degree student** specializing in **AI, IoT, and software development**. Beyond the technical side, I'm a dedicated **community leader and problem solver** who actively volunteers with **NGOs and collegiate societies**.
+I'm a **Computer Science and student** specializing in **AI, IoT, and software development**. Beyond the technical side, I'm a dedicated **community leader and problem solver** who actively volunteers with **NGOs and collegiate societies**.
 
 - 🤖 Building across **AI/ML, Blockchain, IoT, and Electronics**
 - 🔧 I like working **from the fundamentals**: understanding how things work at the core level
