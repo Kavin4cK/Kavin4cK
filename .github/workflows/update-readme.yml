@@ -2,7 +2,7 @@ name: Dynamic README Update
 
 on:
   schedule:
-    - cron: '1 * * * *'   # every hour (UTC)
+    - cron: '17 */2 * * *'   # every 2 hours, at :17 past, UTC
   workflow_dispatch:
   push:
     branches:
