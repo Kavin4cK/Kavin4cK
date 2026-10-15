@@ -2,7 +2,7 @@ name: Dynamic README Update
 
 on:
   schedule:
-    - cron: '17 */2 * * *'   # every 2 hours, at :17 past, UTC
+    - cron: '7,37 * * * *'   # every 30 min (UTC) — offset from the hour to avoid congestion
   workflow_dispatch:
   push:
     branches:
@@ -10,11 +10,12 @@ on:
 
 concurrency:
   group: readme-update
-  cancel-in-progress: false
+  cancel-in-progress: true   # a stuck run can no longer block every run after it
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    timeout-minutes: 3        # hard stop so a hung step can't jam the queue
     permissions:
       contents: write
 
@@ -119,6 +120,5 @@ jobs:
           else
             COMMIT_TIME=$(date '+%Y-%m-%d %I:%M %p IST')
             git commit -m "🤖 Update: Dynamic content [$COMMIT_TIME]"
-            git pull --rebase
             git push
           fi
