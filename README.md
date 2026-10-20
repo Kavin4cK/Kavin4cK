@@ -1,13 +1,13 @@
 <!--START:HEADER-->
 <div align="center">
 
-# Good Afternoon ☀️
+# Good Evening 🌆
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=header&text=☀️&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=FF6B6B&height=120&section=header&text=🌇&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Tuesday, October 20, 2026 at 12:51 PM IST
+### 🕐 Last Updated: Tuesday, October 20, 2026 at 06:23 PM IST
 
-*Let's keep the momentum going!*
+*Evening coding sessions hit different!*
 
 </div>
 <!--END:HEADER-->
