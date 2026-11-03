@@ -1,13 +1,13 @@
 <!--START:HEADER-->
 <div align="center">
 
-# Good Night 🌙
+# Good Midnight 🌙
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=1A1A2E&height=120&section=header&text=✨&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=4A5899&height=120&section=header&text=🌙&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Tuesday, November 03, 2026 at 09:57 PM IST
+### 🕐 Last Updated: Wednesday, November 04, 2026 at 03:24 AM IST
 
-*Time to rest and recharge for tomorrow!*
+*Burning the midnight oil? Remember to rest!*
 
 </div>
 <!--END:HEADER-->
