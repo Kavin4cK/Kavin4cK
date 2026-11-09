@@ -1,13 +1,13 @@
 <!--START:HEADER-->
 <div align="center">
 
-# Good Morning 🌅
+# Good Night 🌙
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFA500&height=120&section=header&text=🌅&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=1A1A2E&height=120&section=header&text=✨&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Monday, November 09, 2026 at 11:09 AM IST
+### 🕐 Last Updated: Monday, November 09, 2026 at 09:16 PM IST
 
-*Rise and shine! Time to build something amazing.*
+*Time to rest and recharge for tomorrow!*
 
 </div>
 <!--END:HEADER-->
