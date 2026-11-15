@@ -2,7 +2,7 @@ name: Dynamic README Update
 
 on:
   schedule:
-    - cron: '7,37 * * * *'   # every 30 min (UTC) — offset from the hour to avoid congestion
+    - cron: '30 * * * *'   # every 30 min (UTC) — offset from the hour to avoid congestion
   workflow_dispatch:
   push:
     branches:
