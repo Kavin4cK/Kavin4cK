@@ -1,13 +1,13 @@
 <!--START:HEADER-->
 <div align="center">
 
-# Good Morning 🌅
+# Good Night 🌙
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFA500&height=120&section=header&text=🌅&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=1A1A2E&height=120&section=header&text=✨&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Tuesday, November 17, 2026 at 10:10 AM IST
+### 🕐 Last Updated: Tuesday, November 17, 2026 at 08:14 PM IST
 
-*Rise and shine! Time to build something amazing.*
+*Time to rest and recharge for tomorrow!*
 
 </div>
 <!--END:HEADER-->
@@ -240,7 +240,7 @@ _No posts yet, stay tuned!_
 <!--START:QUOTE-->
 <div align="center">
 
-> *"The best error message is the one that never shows up."*
+> *"Code is like humor. When you have to explain it, it's bad."*
 
 </div>
 <!--END:QUOTE-->
