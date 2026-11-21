@@ -1,13 +1,13 @@
 <!--START:HEADER-->
 <div align="center">
 
-# Good Evening 🌆
+# Good Midnight 🌙
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FF6B6B&height=120&section=header&text=🌇&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=4A5899&height=120&section=header&text=🌙&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Saturday, November 21, 2026 at 05:01 PM IST
+### 🕐 Last Updated: Sunday, November 22, 2026 at 01:06 AM IST
 
-*Evening coding sessions hit different!*
+*Burning the midnight oil? Remember to rest!*
 
 </div>
 <!--END:HEADER-->
@@ -240,7 +240,7 @@ _No posts yet, stay tuned!_
 <!--START:QUOTE-->
 <div align="center">
 
-> *"Make it work, make it right, make it fast."*
+> *"Talk is cheap. Show me the code."*
 
 </div>
 <!--END:QUOTE-->
