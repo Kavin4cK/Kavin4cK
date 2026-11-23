@@ -29,26 +29,10 @@ jobs:
         run: |
           set -e
 
-          # ---------- IST greeting ----------
-          HOUR=$((10#$(date +%H)))
-          echo "Current IST hour: $HOUR"
-
-          if [ $HOUR -ge 1 ] && [ $HOUR -lt 5 ]; then
-            GREETING="Good Midnight 🌙"; EMOJI="🌙"; COLOR="4A5899"
-            MSG="Burning the midnight oil? Remember to rest!"
-          elif [ $HOUR -ge 5 ] && [ $HOUR -lt 12 ]; then
-            GREETING="Good Morning 🌅"; EMOJI="🌅"; COLOR="FFA500"
-            MSG="Rise and shine! Time to build something amazing."
-          elif [ $HOUR -ge 12 ] && [ $HOUR -lt 16 ]; then
-            GREETING="Good Afternoon ☀️"; EMOJI="☀️"; COLOR="FFD700"
-            MSG="Let's keep the momentum going!"
-          elif [ $HOUR -ge 16 ] && [ $HOUR -lt 20 ]; then
-            GREETING="Good Evening 🌆"; EMOJI="🌇"; COLOR="FF6B6B"
-            MSG="Evening coding sessions hit different!"
-          else
-            GREETING="Good Night 🌙"; EMOJI="✨"; COLOR="1A1A2E"
-            MSG="Time to rest and recharge for tomorrow!"
-          fi
+          GREETING="Greetings :)"
+          EMOJI="👋"
+          COLOR="00F74D"
+          MSG="Welcome to my profile!"
 
           FULL_DATE=$(date '+%A, %B %d, %Y')
           FULL_TIME=$(date '+%I:%M %p IST')

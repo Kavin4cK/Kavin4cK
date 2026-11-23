@@ -1,20 +1,20 @@
 <!--START:HEADER-->
 <div align="center">
 
-# Good Morning 🌅
+# Greetings :)
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=FFA500&height=120&section=header&text=🌅&fontSize=90&animation=twinkling)
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=00F74D&height=120&section=header&text=👋&fontSize=90&animation=twinkling)
 
 ### 🕐 Last Updated: Monday, November 23, 2026 at 09:22 AM IST
 
-*Rise and shine! Time to build something amazing.*
+*Welcome to my profile!*
 
 </div>
 <!--END:HEADER-->
 
 ---
 
-<h1 align="center">Hi 👋, I'm Kavin</h1>
+<h1 align="center">I'm Kavin</h1>
 <h3 align="center">CS Student | AI · IoT · Software Development | Community Leader</h3>
 
 <div align="center">
