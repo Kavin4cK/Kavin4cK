@@ -5,7 +5,7 @@
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=00F74D&height=120&section=header&text=👋&fontSize=90&animation=twinkling)
 
-### 🕐 Last Updated: Monday, November 23, 2026 at 08:36 PM IST
+### 🕐 Last Updated: Tuesday, November 24, 2026 at 07:56 AM IST
 
 *Welcome to my profile!*
 
@@ -240,7 +240,7 @@ _No posts yet, stay tuned!_
 <!--START:QUOTE-->
 <div align="center">
 
-> *"Make it work, make it right, make it fast."*
+> *"First, solve the problem. Then, write the code."*
 
 </div>
 <!--END:QUOTE-->
